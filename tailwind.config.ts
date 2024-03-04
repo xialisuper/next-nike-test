@@ -1,21 +1,6 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  // content: [
-  //   "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-  //   "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-  //   "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  // ],
-  // theme: {
-  //   extend: {
-  //     backgroundImage: {
-  //       "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-  //       "gradient-conic":
-  //         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-  //     },
-  //   },
-  // },
-  // plugins: [],
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontSize: {
@@ -45,8 +30,8 @@ const config: Config = {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },
       backgroundImage: {
-        hero: "url('assets/images/collection-background.svg')",
-        card: "url('assets/images/thumbnail-background.svg')",
+        hero: "url('/public/images/collection-background.svg')",
+        card: "url('/public/images/thumbnail-background.svg')",
       },
       screens: {
         wide: "1440px",
